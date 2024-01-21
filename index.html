@@ -1,0 +1,69 @@
+<head>
+    <title>
+        Face recognition web app
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <center>
+        <h1>
+            Face Recognition Web App
+        </h1>
+        <h3>
+            Model is trained to identify the following objects:
+        </h3>
+        <h2 class="family_name">
+            Father
+        </h2 class="family_name">
+        <br>
+        <h2 class="family_name">
+            Mother
+        </h2>
+        <br>
+        <h2 class="family_name">
+            Brother
+        </h2>
+        <br>
+        <h2 class="family_name">
+            Me
+        </h2>
+        <br>
+        <h3>
+            Webcam view
+        </h1>
+        <div id="camera">
+
+        </div>
+        <br>
+        <div id="showimg">
+
+        </div>
+        <hr>
+        <br>
+        <button onclick="capture_img()">
+            Capture image
+        </button>
+        <button onclick="identify_img()">
+            Identify image
+        </button>
+        <h2>
+            Family member:
+            <span id="displayfm">
+                
+            </span>
+        </h2>
+        <h2>
+        Accuracy:
+        <span id="displaya">
+
+        </span>
+        </h2>
+
+    </center>
+    <script src="main.js"></script>
+</body>

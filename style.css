@@ -1,0 +1,21 @@
+.family_name{
+    background-color: rgb(236, 209, 209);
+    color: black;
+    border-color: rgb(112, 109, 212);
+}
+body{
+    background-color: rgb(150, 57, 189);
+}
+#camera{
+    width: 300px;
+    height: 300px;
+    border: 2px solid beige;
+}
+
+#showimg{
+    width: 300px;
+    height: 300px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
